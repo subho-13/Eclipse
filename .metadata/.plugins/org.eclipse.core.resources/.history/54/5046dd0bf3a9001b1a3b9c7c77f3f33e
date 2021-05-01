@@ -1,0 +1,10 @@
+package Main;
+
+import weightedgraph.WeightedGraphModel;
+
+public class WeightedGraph {
+    public static void main(String[] args) {
+        final WeightedGraphModel weightedGraphModel = new WeightedGraphModel("weightedgraph.txt", 1,
+                        7);
+    }
+}

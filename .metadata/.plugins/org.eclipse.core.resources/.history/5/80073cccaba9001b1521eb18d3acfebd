@@ -1,0 +1,32 @@
+package gbfs;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+import java.util.Set;
+import java.util.TreeSet;
+
+import construct.Construct;
+import model.Model;
+import model.State;
+
+public class GBFS {
+    public static <T extends State<T>> void solve(Model<T> model) {
+        final Set<T> exploredStates = new TreeSet<T>();
+        final PriorityQueue<T> newStates = new PriorityQueue<T>(Comparator.reverseOrder());
+
+        final T initialState = model.getInitialState();
+        final T goalState = model.getGoalState();
+
+        while (!newStates.isEmpty()) {
+            final T tmpState = newStates.remove();
+
+            if (tmpState.compareTo(goalState) == 0) {
+                model.setSolution(Construct.solution(tmpState));
+                return;
+            }
+            
+            
+
+        }
+    }
+}

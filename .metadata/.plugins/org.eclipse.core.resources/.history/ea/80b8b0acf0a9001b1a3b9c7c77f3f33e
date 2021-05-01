@@ -1,0 +1,7 @@
+package weightedgraph;
+
+import model.State;
+
+public class WeightedGraphState implements State<WeightedGraphState> {
+
+}

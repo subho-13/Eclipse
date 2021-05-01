@@ -1,0 +1,39 @@
+package weightedgraph;
+
+import model.State;
+
+public class WeightedGraphState implements State<WeightedGraphState> {
+    int node;
+    int weight;
+
+    public WeightedGraphState(int node, int weight) {
+        this.node = node;
+        this.weight = weight;
+    }
+
+    @Override
+    public int compareTo(WeightedGraphState state) {
+        if (this.node == state.node) {
+            return 0;
+        }
+
+        if (this.weight < this.node.weight) {
+            return -1;
+        }
+
+        return 1;
+    }
+
+    @Override
+    public WeightedGraphState getParent() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public void setParent(WeightedGraphState tmpState) {
+        // TODO Auto-generated method stub
+
+    }
+
+}

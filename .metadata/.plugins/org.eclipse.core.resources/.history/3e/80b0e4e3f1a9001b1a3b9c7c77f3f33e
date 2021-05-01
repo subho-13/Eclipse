@@ -1,0 +1,38 @@
+package weightedgraph;
+
+import java.util.List;
+import java.util.Map;
+
+import model.Model;
+
+public class WeightedGraphModel implements Model<WeightedGraphState> {
+    Map<Integer, List<int[]>> graph;
+    WeightedGraphState goalState;
+    WeightedGraphState initialState;
+    List<WeightedGraphState> solutionList;
+
+    @Override
+    public WeightedGraphState getGoalState() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public WeightedGraphState getInitialState() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public List<WeightedGraphState> getNextStates(WeightedGraphState state) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public void setSolution(List<WeightedGraphState> solutions) {
+        // TODO Auto-generated method stub
+
+    }
+
+}

@@ -1,0 +1,5 @@
+contextsDir=/opt/tomcat/apache-tomcat-10.0.4/conf/Catalina/localhost
+eclipse.preferences.version=1
+tomcatConfigFile=/opt/tomcat/apache-tomcat-10.0.4/conf/server.xml
+tomcatDir=/opt/tomcat/apache-tomcat-10.0.4
+tomcatVersion=tomcatV9

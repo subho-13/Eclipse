@@ -1,0 +1,12 @@
+AbstractTextEditor.Color.Background=28,31,34
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+currentLine=false
+eclipse.preferences.version=1
+lineNumberRuler=false
+printMargin=true
+printMarginColumn=100
+removeSpacesAsTabs=true
+showWhitespaceCharacters=false
+spacesForTabs=true

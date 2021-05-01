@@ -1,0 +1,14 @@
+package gbfs;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+import model.Model;
+import model.State;
+
+public class GBFS {
+    public static <T extends State<T>> void solve(Model<T> model) {
+        final Set<T> exploredStates = new TreeSet<T>();
+
+    }
+}

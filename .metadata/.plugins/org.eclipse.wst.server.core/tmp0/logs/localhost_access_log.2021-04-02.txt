@@ -1,0 +1,12 @@
+127.0.0.1 - - [02/Apr/2021:21:27:41 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [02/Apr/2021:21:27:42 +0530] "GET /Bhromon/ HTTP/1.1" 404 763
+127.0.0.1 - - [02/Apr/2021:21:27:42 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [02/Apr/2021:21:27:54 +0530] "POST /Bhromon/admin/login HTTP/1.1" 200 49
+127.0.0.1 - - [02/Apr/2021:21:28:02 +0530] "POST /Bhromon/admin/add HTTP/1.1" 200 78
+127.0.0.1 - - [02/Apr/2021:21:28:55 +0530] "POST /Bhromon/admin/add HTTP/1.1" 200 78
+127.0.0.1 - - [02/Apr/2021:21:28:57 +0530] "POST /Bhromon/admin/add HTTP/1.1" 200 78
+127.0.0.1 - - [02/Apr/2021:21:29:02 +0530] "POST /Bhromon/admin/add HTTP/1.1" 200 78
+127.0.0.1 - - [02/Apr/2021:21:29:52 +0530] "POST /Bhromon/admin/add HTTP/1.1" 200 78
+127.0.0.1 - - [02/Apr/2021:21:30:10 +0530] "POST /Bhromon/admin/add HTTP/1.1" 200 78
+127.0.0.1 - - [02/Apr/2021:21:31:09 +0530] "POST /Bhromon/admin/login HTTP/1.1" 200 49
+127.0.0.1 - - [02/Apr/2021:21:31:18 +0530] "POST /Bhromon/admin/add HTTP/1.1" 200 78

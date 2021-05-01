@@ -1,0 +1,9 @@
+package algo;
+
+import model.Model;
+
+public class IDDFS {
+    public static <T extends State<T>> void solve(Model<T> model, int depth) {
+        final Set<T> explore
+    }
+}

@@ -1,0 +1,5 @@
+package puzzle8;
+
+public class Puzzle8Model implements Model<Puzzle8State> {
+
+}

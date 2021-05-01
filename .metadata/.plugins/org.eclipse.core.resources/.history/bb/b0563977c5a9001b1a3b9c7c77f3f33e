@@ -1,0 +1,18 @@
+package algo;
+
+import model.Model;
+import model.State;
+
+public class BIBFS {
+    public static <T extends State<T>> void solve(Model<T> model) {
+        int depth = 0;
+        while (DLS.solve(model, depth) == false) {
+            depth++;
+        }
+    }
+
+    private static <T extends State<T>> boolean solveIBFS(Model<T> model) {
+        
+        return false;
+    }
+}

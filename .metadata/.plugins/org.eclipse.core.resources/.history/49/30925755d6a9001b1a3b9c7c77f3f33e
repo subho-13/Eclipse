@@ -1,0 +1,10 @@
+package puzzle8;
+
+import java.io.FileNotFoundException;
+
+public class ParsePuzzle8 {
+    public static int[][] from(String filename) throws FileNotFoundException {
+        final int arr[][] = new int[3][3];
+        return arr;
+    }
+}

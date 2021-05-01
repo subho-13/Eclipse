@@ -1,0 +1,7 @@
+package algo;
+
+public class IDDFS {
+    public static <T extends State<T>>  void solve(Model<T> model) {
+        
+    }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;JavaFXDemo&apos;&#x0A;- Original project: &apos;JavaFXDemo&apos;&#x0A;- Original element: &apos;JavaFXDemo/src/com.subho&apos;&#x0A;- Delete subpackages" description="Delete element" element1="/src&lt;com.subho.demo" element2="/src&lt;com.subho" element3="/src&lt;com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1616348473509" subPackages="true" version="1.0"/>
+</session>

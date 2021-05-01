@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+/home/subho/Programming/Eclipse/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+750641270.index
+886655738.index
+2516859945.index
+737018224.index

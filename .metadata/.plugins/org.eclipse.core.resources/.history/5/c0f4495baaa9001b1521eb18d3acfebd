@@ -1,0 +1,9 @@
+package gbfs;
+
+import model.Model;
+
+public class GBFS {
+    public static <T extends State<T>> void solve(Model<T> model) {
+
+    }
+}

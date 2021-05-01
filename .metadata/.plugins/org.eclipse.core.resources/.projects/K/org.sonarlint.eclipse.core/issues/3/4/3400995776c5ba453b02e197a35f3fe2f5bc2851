@@ -1,0 +1,6 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ž½Ž¦ÿÿÿÿÿ8‹îµ·„/HŸRMAJORZ
+CODE_SMELL
+`
+java:S1604"(Make this anonymous inner class a lambda(¢£½æøÿÿÿÿ8‹îµ·„/H RMAJORZ
+CODE_SMELL

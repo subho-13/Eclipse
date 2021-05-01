@@ -1,0 +1,12 @@
+package weightedgraph;
+
+import java.io.FileNotFoundException;
+import java.util.List;
+import java.util.Map;
+
+public class ParseWeightedGraph {
+    public static Map<Integer, List<Map<Integer, Integer>>> from(String filename)
+                    throws FileNotFoundException {
+        File file = new File(filename);
+    }
+}

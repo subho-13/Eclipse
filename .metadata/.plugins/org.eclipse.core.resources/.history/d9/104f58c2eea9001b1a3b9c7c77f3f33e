@@ -1,0 +1,7 @@
+package weightedgraph;
+
+public class ParseWeightedGraph {
+    public static Map<Integer, List<Map<Integer, Integer>>> from (filename) throws FileNotFoundException {
+        
+    }
+}

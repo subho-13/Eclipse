@@ -1,0 +1,38 @@
+package puzzle8;
+
+import java.util.List;
+
+import model.Model;
+
+public class Puzzle8Model implements Model<Puzzle8State> {
+    Puzzle8State goalState;
+    Puzzle8State initialState;
+    List<Puzzle8State> solutionList;
+
+    @Override
+    public Puzzle8State getGoalState(String filename) {
+        final int arrs[][][] = ParsePuzzle8.from(filename);
+        this.initialState = new Puzzle8State(arrs[0]);
+        this.goalState = new Puzzle8State(arrs[1]);
+        return null;
+    }
+
+    @Override
+    public Puzzle8State getInitialState() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public List<Puzzle8State> getNextStates(Puzzle8State state) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public void setSolution(List<Puzzle8State> solutions) {
+        // TODO Auto-generated method stub
+
+    }
+
+}

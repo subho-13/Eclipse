@@ -1,0 +1,7 @@
+package puzzle8;
+
+import model.Model;
+
+public class Puzzle8Model implements Model<Puzzle8State> {
+
+}
